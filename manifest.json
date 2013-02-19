@@ -1,0 +1,14 @@
+{
+  "name": "GitHubFS",
+  "description": "Expose GitHub as a filesystem",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["lib/chai.js","lib/mocha.js","lib/spoke/index.js","lib/github/lib/base64.js","lib/github/lib/underscore-min.js", "lib/github/github.js", "lib/jquery.js", "config.js", "background.js"]
+    }
+  }
+}
